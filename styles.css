@@ -1,0 +1,50 @@
+/*CSS EXTERNAL NAVIGATION BAR FOR HOME GALERI KARAKTER & CONTACT */
+*{
+    background-color: rgb(196, 194, 194);
+}
+
+.nav-cont{
+    background-color: rgba(1, 126, 199, 0.849);
+    font-size: 20px;
+    border: solid 1px;
+    height: 50px;
+    top: 0;
+    width: 100%;
+}
+
+.nav-cont a{
+    background-color: rgba(1, 126, 199, 0.849);
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 20px;
+    text-decoration: none;
+}
+
+.nav-cont a:hover{
+    background-color: rgb(5, 255, 238);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 5px;
+}
+
+.logo{
+    float: right;
+    text-align: center;
+    display: flex;
+    margin: 2px;
+    padding: 10px;
+    font-size:20px;
+    text-shadow: 100px;
+    color: rgb(251, 255, 0);
+    background-color: rgba(1, 126, 199, 0.849);
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#contacts{
+    color: blueviolet;
+}
